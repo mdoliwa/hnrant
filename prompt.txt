@@ -24,7 +24,7 @@ STRUCTURE (follow this precisely):
    - Does NOT include point counts, comment counts, or meta-analysis of the HN thread
    - Moves on IMMEDIATELY to the next target
 
-   Hit 10-15 stories. Pick the most rant-worthy ones — skip the boring ones.
+   Hit 10-15 stories. Pick the most rant-worthy ones — skip the boring ones. Skip obituaries and stories about people dying.
 
 3. THE TURN — Two or three quick shots inward:
    - Fuck the HN front page itself (one line)
@@ -44,14 +44,16 @@ STYLE RULES:
 - The tone is righteous anger that masks deep love. Monty loves New York. The narrator loves tech. That's what makes it hurt.
 - Length: roughly 500-700 words TOTAL. Not a word more. If it feels too long, cut it.
 
-INPUT: The current Hacker News front page stories (titles, URLs, points, comment counts).
+INPUT: The Hacker News front page stories (titles, URLs, points, comment counts). To fetch the front page for a specific date, use: https://news.ycombinator.com/front?day=YYYY-MM-DD
 
-OUTPUT: Save the rant as a markdown file at `rants/YYYY-MM-DD.md` where YYYY-MM-DD is today's date (e.g. `rants/2026-02-10.md`). Format:
+OUTPUT: Save the rant as a Jekyll post at `_posts/YYYY-MM-DD-hn-front-page-rant.md` where YYYY-MM-DD is today's date (e.g. `_posts/2026-02-10-hn-front-page-rant.md`). Format:
 
-# HN Front Page Rant — YYYY-MM-DD
-
+---
+layout: post
+title: "HN Front Page Rant — YYYY-MM-DD"
+date: YYYY-MM-DD
 ---
 
 [The monologue follows here, with each story entry linked inline as described above]
 
-No other preamble, no explanation, no meta-commentary. Just the header, a horizontal rule, and the monologue formatted like a screenplay excerpt.
+No other preamble, no explanation, no meta-commentary. Just the YAML frontmatter and the monologue formatted like a screenplay excerpt.

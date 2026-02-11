@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Charter", "Bitstream Charter", "Sitka Text", Cambria, serif;
+  font-size: 1.35rem;
+  line-height: 1.85;
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+header {
+  margin-bottom: 4rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+header .site-title {
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-description {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.about {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: inherit;
+  line-height: 1.5;
+}
+
+header hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 2rem;
+  width: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rant time {
+  display: block;
+  font-size: 0.8rem;
+  color: #999;
+  margin-bottom: 3rem;
+}
+
+.rant h1 {
+  display: none;
+}
+
+.rant hr {
+  display: none;
+}
+
+.rant p {
+  margin-bottom: 1.4rem;
+  hanging-punctuation: first;
+}
+
+.post-nav {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-nav a {
+  font-size: 1rem;
+  color: #999;
+}
+
+.post-nav a:hover {
+  color: #333;
+}
+
+.post-nav-newer {
+  margin-left: auto;
+}

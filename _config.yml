@@ -1,0 +1,15 @@
+title: HN Rant
+description: "Daily Hacker News front page rants in the style of the 25th Hour mirror scene."
+url: "https://hnrant.com"
+baseurl: ""
+
+permalink: /:year-:month-:day/
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - prompt.txt
+  - rants
+  - README.md
