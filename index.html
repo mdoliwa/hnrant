@@ -6,6 +6,8 @@ layout: default
   {{ latest.content }}
 </article>
 
+{% include subscribe.html %}
+
 {% if site.posts.size > 1 %}
 <nav class="post-nav">
   <a href="{{ site.posts[1].url | relative_url }}" class="post-nav-older">&larr; {{ site.posts[1].date | date: '%B %-d, %Y' }}</a>
