@@ -75,6 +75,21 @@ header hr {
   hanging-punctuation: first;
 }
 
+.newsletter {
+  margin-top: 4rem;
+}
+
+.newsletter .beehiiv-embed {
+  border: none;
+  background-color: transparent;
+}
+
+@media (max-width: 600px) {
+  .newsletter .beehiiv-embed {
+    height: 500px !important;
+  }
+}
+
 .post-nav {
   margin-top: 5rem;
   display: flex;
