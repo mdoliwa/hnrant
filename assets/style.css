@@ -76,7 +76,7 @@ header hr {
 }
 
 .newsletter {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .newsletter .beehiiv-embed {
@@ -91,7 +91,7 @@ header hr {
 }
 
 .post-nav {
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
 }

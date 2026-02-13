@@ -5,8 +5,6 @@ layout: default
   {{ content }}
 </article>
 
-{% include subscribe.html %}
-
 <nav class="post-nav">
   {% if page.previous %}
     <a href="{{ page.previous.url | relative_url }}" class="post-nav-older">&larr; {{ page.previous.date | date: '%B %-d, %Y' }}</a>
@@ -15,3 +13,5 @@ layout: default
     <a href="{{ page.next.url | relative_url }}" class="post-nav-newer">{{ page.next.date | date: '%B %-d, %Y' }} &rarr;</a>
   {% endif %}
 </nav>
+
+{% include subscribe.html %}
