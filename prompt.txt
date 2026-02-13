@@ -18,7 +18,8 @@ STRUCTURE (follow this precisely):
 
 2. THE RANT — A rapid-fire barrage targeting stories from the HN front page. Each entry:
    - Opens with "Fuck..." and names the specific target from a front page story
-   - Includes a link to that story's HN comment page inline: [Story Title](https://news.ycombinator.com/item?id=STORY_ID)
+   - Includes a single link to that story's HN comment page inline: [Story Title](https://news.ycombinator.com/item?id=STORY_ID)
+   - ONE story per entry. NEVER combine two stories into the same "Fuck..." entry, even if they're related. Each entry gets exactly one link. If two stories cover the same topic, pick one or give each its own separate entry.
    - Is 1-3 sentences. Some just ONE punchy sentence. A few can stretch to 3-4 sentences if they're building to something, but MOST are short
    - Uses one or two vivid, specific, concrete details — not a whole essay
    - Does NOT include point counts, comment counts, or meta-analysis of the HN thread
